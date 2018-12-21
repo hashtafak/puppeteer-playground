@@ -1,0 +1,15 @@
+{
+    "name": "puppeteer-playground",
+    "version": "1.0.0",
+    "description": "Puppeteer 'like' human",
+    "main": "index.js",
+    "scripts": {
+        "test": "export DEBUG=Browser:* && node index.js"
+    },
+    "author": "hastafak",
+    "license": "MIT",
+    "dependencies": {
+        "debug": "^4.1.0",
+        "puppeteer": "^1.11.0"
+    }
+}
