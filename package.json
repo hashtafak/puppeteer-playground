@@ -2,9 +2,9 @@
     "name": "puppeteer-playground",
     "version": "0.1.0",
     "description": "Puppeteer 'like' human",
-    "main": "./lib/nature-mouse-n-keyboard.js",
+    "main": "lib/nature-mouse-n-keyboard.js",
     "scripts": {
-        "test": "export DEBUG=Browser:* && node index.js"
+        "test": "set DEBUG=Browser:* && node __tests__/index.js"
     },
     "author": "hastafak",
     "license": "MIT",
