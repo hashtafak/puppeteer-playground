@@ -1,8 +1,8 @@
 {
     "name": "puppeteer-playground",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Puppeteer 'like' human",
-    "main": "index.js",
+    "main": "./lib/nature-mouse-n-keyboard.js",
     "scripts": {
         "test": "export DEBUG=Browser:* && node index.js"
     },
